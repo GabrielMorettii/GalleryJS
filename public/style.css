@@ -89,6 +89,17 @@ nav ul li:last-child{
   grid-template-columns: 1fr 1fr;
   align-items: center;
   position: relative;
+  transition: all linear 0.4s;
+}
+
+.photos:hover,
+.videos:hover,
+.gifs:hover{
+  cursor: pointer;
+  background-color: #555;
+  border-radius: 5px;
+  padding: 5px 20px;
+  transition: all linear 0.4s;
 }
 
 .gifs{
@@ -171,4 +182,16 @@ main section{
   right: 2%;
   top: 5%;
   width: 3%;
+  transition: all linear 0.5s
+}
+
+#close:hover{
+  transform: scale(1.2);
+  transition: all linear 0.5s
+}
+
+/* ADD */
+
+#file{
+  display: none;
 }
